@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "whatsapp-dedup-guard"
+version = "0.1.0"
+description = "CLI tool that scans a WhatsApp bot inbox for duplicate message files caused by parallel LLM processing"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Harel Asaf" }]
+keywords = ["whatsapp", "cli", "deduplication", "ai", "llm", "inbox-management"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+]
+
+[project.urls]
+Homepage = "https://github.com/RLASAF12/whatsapp-dedup-guard"
+Issues = "https://github.com/RLASAF12/whatsapp-dedup-guard/issues"
+
+[project.scripts]
+whatsapp-dedup-guard = "whatsapp_dedup_guard:main"
+
+[tool.setuptools]
+py-modules = ["whatsapp_dedup_guard"]
