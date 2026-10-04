@@ -1,3 +1,5 @@
+> **Archived.** This repo moved to [RLASAF12/agent-guardrails](https://github.com/RLASAF12/agent-guardrails/tree/main/whatsapp-dedup-guard) (folder `whatsapp-dedup-guard/`, full history preserved). Archived 2026-10-04.
+
 # whatsapp-dedup-guard
 
 > **CLI tool that scans a WhatsApp bot inbox for duplicate message files and removes the noise.**
